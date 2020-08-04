@@ -8,3 +8,4 @@ execute as @a if entity @s[scores={apple=1}] run function motion:apple
 execute as @a if entity @s[scores={pineapple=1}] run function motion:pineapple
 execute as @a if entity @s[scores={banana=1}] run function motion:banana
 execute as @a if entity @s[scores={death=1}] run function motion:death
+execute as @a if entity @s[scores={completed<=5}] run function effect @p nausea 99999
